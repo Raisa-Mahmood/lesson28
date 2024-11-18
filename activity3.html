@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Arrow Functioning in JS</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <script>
+        // without Arrow function
+        function add(a, b) {
+            return a + b;
+        }
+       document.getElementById("p1").innerHTML="The sum of 30 and 23 is " +add(30,23);
+       // with Arrow function
+       var sum=(a,b)=>a+b;
+        document.getElementById("p2").innerHTML = "The sum of 27 and 93 is " + add(27, 93);
+
+    </script>
+
+</body>
+
+</html>
